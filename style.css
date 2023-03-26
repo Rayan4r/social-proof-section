@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    font-size: 15px;
+    font-family: 'League Spartan';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 100px 0 130px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.up .text{
+    text-align: left;
+}
+.up .text h1{
+    color:hsl(300, 43%, 22%);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.up .text p{
+    color:hsl(303, 10%, 53%);
+    margin-right: 150px;
+    text-align: justify;
+}
+.up .rate-bx{
+    width: 100%;
+    margin-top: 50px;
+}
+.rate-bx .rate{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color: var(--Light-Grayish-Magenta);
+    margin-bottom: 15px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.rate-bx .review{
+    margin-left: -30px;
+    margin-right: 150px;
+}
+.rate-bx .report{
+    margin-right: 120px;
+}
+.rate-bx .tech{
+    margin-left: 30px;
+}
+.rate-bx .rate h4{
+    margin-left: 20px;
+    color: var(--Very-Dark-Magenta);
+}
+.down .pple-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down .pple-bx .bx{
+    color:hsl(0, 0%, 100%);
+    background-color: var(--Very-Dark-Magenta);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 30px 25px;
+    box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.25);
+}
+.down .pple-bx .bx2{
+    margin-top: 20px;
+}
+.down .pple-bx .bx3{
+    margin-top: 40px;
+}
+.down .pple-bx .bx .img{
+    display: flex;
+    margin-bottom: 15px;
+}
+.down .pple-bx .bx .img img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+.down .pple-bx .bx .img-text h2{
+    font-size: 1rem;
+}
+.down .pple-bx .bx .img-text p{
+    color: var(--Soft-Pink);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.down .pple-bx .bx p{
+    color: var(--Light-Grayish-Magenta);
+}
+
+
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
